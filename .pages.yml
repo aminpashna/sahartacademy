@@ -1,0 +1,112 @@
+media:
+  input: images
+  output: /images
+
+content:
+  - name: site
+    label: Edit the website
+    type: file
+    path: data/content.json
+    fields:
+      - name: hero
+        label: Hero (top of page)
+        type: object
+        fields:
+          - { name: eyebrow, label: Small line above the title, type: string }
+          - { name: title, label: Big title, type: string }
+          - { name: accent, label: Highlighted word, type: string }
+          - { name: lead, label: Intro sentence, type: text }
+          - { name: primaryLabel, label: First button text, type: string }
+          - { name: secondaryLabel, label: Second button text, type: string }
+          - { name: cardImage, label: Feature image (optional), type: image, required: false }
+          - { name: cardTitle, label: Feature image — title, type: string }
+          - { name: cardCaption, label: Feature image — caption, type: string }
+
+      - name: about
+        label: About
+        type: object
+        fields:
+          - { name: eyebrow, label: Small line above the title, type: string }
+          - { name: title, label: Title — start, type: string }
+          - { name: accent, label: Title — highlighted phrase, type: string }
+          - { name: titleAfter, label: Title — end, type: string, required: false }
+          - { name: paragraphs, label: Paragraphs, type: text, list: true }
+          - { name: portraitImage, label: Portrait photo (optional), type: image, required: false }
+          - name: stats
+            label: Stats
+            type: object
+            list: true
+            fields:
+              - { name: value, label: Number (e.g. 15+), type: string }
+              - { name: label, label: Label, type: string }
+
+      - name: works
+        label: Gallery
+        type: object
+        fields:
+          - { name: title, label: Section title, type: string }
+          - { name: accent, label: Highlighted word, type: string }
+          - name: items
+            label: Artworks
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: year, label: Year, type: string }
+              - { name: medium, label: Medium, type: string }
+              - { name: dimensions, label: Dimensions, type: string }
+              - name: category
+                label: Type
+                type: select
+                options:
+                  values: [painting, sculpture]
+              - { name: image, label: Photo, type: image, required: false }
+
+      - name: academy
+        label: Academy / Classes
+        type: object
+        fields:
+          - { name: title, label: Section title, type: string }
+          - { name: accent, label: Highlighted word, type: string }
+          - { name: note, label: Note, type: text }
+          - name: classes
+            label: Classes
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Label (e.g. Class 01), type: string }
+              - { name: title, label: Title, type: string }
+              - { name: description, label: Description, type: text }
+              - { name: level, label: Level / length, type: string }
+              - { name: schedule, label: Schedule, type: string }
+
+      - name: acquire
+        label: Available work (for sale)
+        type: object
+        fields:
+          - { name: title, label: Section title, type: string }
+          - { name: accent, label: Highlighted word, type: string }
+          - { name: note, label: Note, type: text }
+          - name: items
+            label: Items for sale
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: desc, label: Description, type: string }
+              - { name: price, label: Price, type: string }
+              - { name: image, label: Photo, type: image, required: false }
+
+      - name: contact
+        label: Contact
+        type: object
+        fields:
+          - { name: eyebrow, label: Small line above the title, type: string }
+          - { name: title, label: Title — start, type: string }
+          - { name: accent, label: Highlighted word, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: email, label: Email, type: string }
+          - { name: phone, label: Phone, type: string }
+          - { name: instagram, label: Instagram handle, type: string }
+          - { name: instagramUrl, label: Instagram link, type: string }
+          - { name: studio, label: Studio note, type: string }
