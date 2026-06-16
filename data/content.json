@@ -6,6 +6,7 @@
     "lead": "Original paintings and sculpture by Sahar — and a working studio where you can learn to make your own.",
     "primaryLabel": "See the work",
     "secondaryLabel": "Join a class",
+    "cardImage": "",
     "cardTitle": "Daybreak No.4",
     "cardCaption": "2025 · Oil on linen"
   },
@@ -18,88 +19,26 @@
       "Working across painting and sculpture, Sahar builds pieces that hold colour and weight in the same breath — flat fields that quietly turn dimensional, forms that catch the light differently as you move past them. Her studio, Sah Art Academy, is both where the work is made and where she teaches others to find their own line and form.",
       "She takes a limited number of commissions each year and welcomes studio visits by appointment."
     ],
+    "portraitImage": "",
     "stats": [
-      {
-        "value": "15+",
-        "label": "Years in the studio"
-      },
-      {
-        "value": "40+",
-        "label": "Works exhibited"
-      },
-      {
-        "value": "200+",
-        "label": "Students taught"
-      }
+      { "value": "15+", "label": "Years in the studio" },
+      { "value": "40+", "label": "Works exhibited" },
+      { "value": "200+", "label": "Students taught" }
     ]
   },
   "works": {
     "title": "The studio",
     "accent": "catalogue",
     "items": [
-      {
-        "title": "Convergence",
-        "year": "2025",
-        "medium": "Acrylic on canvas",
-        "dimensions": "160 × 120 cm",
-        "category": "painting"
-      },
-      {
-        "title": "Ascent",
-        "year": "2024",
-        "medium": "Cast bronze",
-        "dimensions": "74 cm height",
-        "category": "sculpture"
-      },
-      {
-        "title": "Low Tide",
-        "year": "2025",
-        "medium": "Oil on linen",
-        "dimensions": "90 × 90 cm",
-        "category": "painting"
-      },
-      {
-        "title": "Two States (Diptych)",
-        "year": "2023",
-        "medium": "Mixed media",
-        "dimensions": "200 × 140 cm",
-        "category": "painting"
-      },
-      {
-        "title": "Stack II",
-        "year": "2024",
-        "medium": "Painted steel & stone",
-        "dimensions": "112 cm height",
-        "category": "sculpture"
-      },
-      {
-        "title": "Ribbon",
-        "year": "2025",
-        "medium": "Powder-coated aluminium",
-        "dimensions": "96 cm height",
-        "category": "sculpture"
-      },
-      {
-        "title": "Window",
-        "year": "2024",
-        "medium": "Oil on board",
-        "dimensions": "70 × 50 cm",
-        "category": "painting"
-      },
-      {
-        "title": "Tide Pool",
-        "year": "2025",
-        "medium": "Watercolor on paper",
-        "dimensions": "40 × 30 cm",
-        "category": "watercolor"
-      },
-      {
-        "title": "Mist Study",
-        "year": "2024",
-        "medium": "Watercolor on paper",
-        "dimensions": "35 × 28 cm",
-        "category": "watercolor"
-      }
+      { "title": "Convergence", "year": "2025", "medium": "Acrylic on canvas", "dimensions": "160 × 120 cm", "category": "painting", "image": "" },
+      { "title": "Ascent", "year": "2024", "medium": "Cast bronze", "dimensions": "74 cm height", "category": "sculpture", "image": "" },
+      { "title": "Low Tide", "year": "2025", "medium": "Oil on linen", "dimensions": "90 × 90 cm", "category": "painting", "image": "" },
+      { "title": "Two States (Diptych)", "year": "2023", "medium": "Mixed media", "dimensions": "200 × 140 cm", "category": "painting", "image": "" },
+      { "title": "Stack II", "year": "2024", "medium": "Painted steel & stone", "dimensions": "112 cm height", "category": "sculpture", "image": "" },
+      { "title": "Ribbon", "year": "2025", "medium": "Powder-coated aluminium", "dimensions": "96 cm height", "category": "sculpture", "image": "" },
+      { "title": "Window", "year": "2024", "medium": "Oil on board", "dimensions": "70 × 50 cm", "category": "painting", "image": "" },
+      { "title": "Tide Pool", "year": "2025", "medium": "Watercolor on paper", "dimensions": "40 × 30 cm", "category": "watercolor", "image": "" },
+      { "title": "Mist Study", "year": "2024", "medium": "Watercolor on paper", "dimensions": "35 × 28 cm", "category": "watercolor", "image": "" }
     ]
   },
   "academy": {
@@ -107,27 +46,9 @@
     "accent": "studio",
     "note": "Small groups, real materials, and direct feedback from a working artist. All levels welcome.",
     "classes": [
-      {
-        "name": "Class 01",
-        "title": "Painting Foundations",
-        "description": "Colour, composition and confidence with the brush — from blank canvas to a finished piece you're proud of.",
-        "level": "6 weeks · Beginner",
-        "schedule": "Wed evening"
-      },
-      {
-        "name": "Class 02",
-        "title": "Sculpting Form",
-        "description": "Build, carve and cast. Work in clay and mixed media to bring three-dimensional ideas into the world.",
-        "level": "8 weeks · All levels",
-        "schedule": "Sat morning"
-      },
-      {
-        "name": "Class 03",
-        "title": "Contemporary Abstraction",
-        "description": "Loosen up and find your own visual language through colour fields, gesture and bold mark-making.",
-        "level": "4 weeks · Intermediate",
-        "schedule": "Mon evening"
-      }
+      { "name": "Class 01", "title": "Painting Foundations", "description": "Colour, composition and confidence with the brush — from blank canvas to a finished piece you're proud of.", "level": "6 weeks · Beginner", "schedule": "Wed evening" },
+      { "name": "Class 02", "title": "Sculpting Form", "description": "Build, carve and cast. Work in clay and mixed media to bring three-dimensional ideas into the world.", "level": "8 weeks · All levels", "schedule": "Sat morning" },
+      { "name": "Class 03", "title": "Contemporary Abstraction", "description": "Loosen up and find your own visual language through colour fields, gesture and bold mark-making.", "level": "4 weeks · Intermediate", "schedule": "Mon evening" }
     ]
   },
   "acquire": {
@@ -135,21 +56,9 @@
     "accent": "work",
     "note": "Each piece is original and one of a kind. Enquire to arrange purchase, shipping or a viewing.",
     "items": [
-      {
-        "title": "Convergence",
-        "desc": "Acrylic on canvas · 160 × 120 cm · 2025",
-        "price": "$4,800"
-      },
-      {
-        "title": "Ascent",
-        "desc": "Cast bronze · 74 cm · Edition of 5",
-        "price": "$6,200"
-      },
-      {
-        "title": "Study in Green",
-        "desc": "Mixed media on paper · 50 × 50 cm · 2024",
-        "price": "$1,150"
-      }
+      { "title": "Convergence", "desc": "Acrylic on canvas · 160 × 120 cm · 2025", "price": "$4,800", "image": "" },
+      { "title": "Ascent", "desc": "Cast bronze · 74 cm · Edition of 5", "price": "$6,200", "image": "" },
+      { "title": "Study in Green", "desc": "Mixed media on paper · 50 × 50 cm · 2024", "price": "$1,150", "image": "" }
     ]
   },
   "contact": {
