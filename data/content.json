@@ -37,8 +37,8 @@
       { "title": "Stack II", "year": "2024", "medium": "Painted steel & stone", "dimensions": "112 cm height", "category": "sculpture", "image": "" },
       { "title": "Ribbon", "year": "2025", "medium": "Powder-coated aluminium", "dimensions": "96 cm height", "category": "sculpture", "image": "" },
       { "title": "Window", "year": "2024", "medium": "Oil on board", "dimensions": "70 × 50 cm", "category": "painting", "image": "" },
-      { "title": "Tide Pool", "year": "2025", "medium": "Watercolor on paper", "dimensions": "40 × 30 cm", "category": "watercolor", "image": "" },
-      { "title": "Mist Study", "year": "2024", "medium": "Watercolor on paper", "dimensions": "35 × 28 cm", "category": "watercolor", "image": "" }
+      { "title": "Tide Pool", "year": "2025", "medium": "Watercolor on paper", "dimensions": "40 × 30 cm", "category": "painting", "image": "" },
+      { "title": "Mist Study", "year": "2024", "medium": "Watercolor on paper", "dimensions": "35 × 28 cm", "category": "painting", "image": "" }
     ]
   },
   "academy": {
