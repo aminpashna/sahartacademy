@@ -44,7 +44,8 @@
         "year": "2025",
         "medium": "Acrylic on canvas",
         "dimensions": "160 × 120 cm",
-        "category": "painting"
+        "category": "painting",
+        "image": "/images/WhatsApp Image 2026-06-15 at 7.42.16 AM (29)-1.jpeg"
       },
       {
         "title": "Ascent",
@@ -159,7 +160,8 @@
       {
         "title": "Study in Green",
         "desc": "Mixed media on paper · 50 × 50 cm · 2024",
-        "price": "$1,150"
+        "price": "$1,150",
+        "image": "/images/WhatsApp Image 2026-06-15 at 7.42.11 AM (1).jpeg"
       }
     ]
   },
