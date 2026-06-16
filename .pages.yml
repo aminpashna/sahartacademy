@@ -1,3 +1,8 @@
+# ------------------------------------------------------------------
+# Pages CMS configuration for Sah Art Academy
+# Edit content at:  https://app.pagescms.org  (sign in with GitHub)
+# ------------------------------------------------------------------
+
 media:
   input: images
   output: /images
@@ -59,7 +64,7 @@ content:
                 label: Type
                 type: select
                 options:
-                  values: [painting, sculpture]
+                  values: [painting, sculpture, watercolor]
               - { name: image, label: Photo, type: image, required: false }
 
       - name: academy
